@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
 * {
-    /* border: red solid 1px;   */
+    /* border: red solid 1px; */
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
@@ -315,7 +315,7 @@ background: #9a4eff;
 .footer {
 background-color: #f6f6ff;
 color: #1b1240;
-font-family: sans-serif;
+font-family: 'DM Sans',sans-serif;
 padding: 2rem 1rem;
 position: relative;
 }
@@ -328,11 +328,14 @@ justify-content: space-between;
 gap: 1rem;
 border-bottom: 1px solid #ccc;
 padding-bottom: 1.5rem;
+padding: 0 40px;
 }
 
 .footer-logo img {
 height: 30px;
 }
+
+
 
 .footer-payments img {
 height: 30px;
@@ -348,8 +351,9 @@ text-decoration: none;
 }
 
 .footer-socials a img {
-height: 24px;
+height: 32px;
 margin: 0 6px;
+margin-left: auto;
 }
 
 .footer-links {
@@ -368,6 +372,9 @@ text-decoration: none;
 font-size: 0.85rem;
 margin-top: 1rem;
 color: #444;
+display: flex;
+padding: 0 40px;
+justify-content: space-between;
 }
 
 .footer-bottom p {
@@ -384,5 +391,6 @@ margin: 0.3rem 0;
   flex-direction: column;
   gap: 0.5rem;
 }
+
 
 }
