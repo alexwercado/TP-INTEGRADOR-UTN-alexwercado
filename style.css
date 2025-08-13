@@ -232,7 +232,7 @@ background-color: #7b2ffc;
 .migration {
 background-color: #1b1240;
 color: white;
-padding: 40px 20px;
+padding: 80px 20px;
 text-align: center;
 font-family: 'DM Sans', sans-serif;
 }
@@ -255,6 +255,7 @@ display: flex;
 flex-wrap: wrap;
 gap: 22px;
 justify-content: center;
+
 margin-bottom: 32px;
 }
 
@@ -307,7 +308,7 @@ background: #9a4eff;
 
 @media (max-width: 768px) {
 .migration-cards {
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 }
@@ -332,15 +333,22 @@ padding: 0 40px;
 }
 
 .footer-logo img {
-height: 30px;
+height: 40px;
+margin-bottom: 20px;
 }
 
-
+.footer-top-right {
+display: flex;
+flex-direction: column;
+align-items: flex-end;;
+}
 
 .footer-payments img {
-height: 30px;
+height: 40px;
 margin: 0 4px;
 vertical-align: middle;
+margin-bottom: 20px;
+border-radius: 6px;
 }
 
 .footer-payments .more-link {
@@ -351,9 +359,10 @@ text-decoration: none;
 }
 
 .footer-socials a img {
-height: 32px;
+height: 30px;
 margin: 0 6px;
-margin-left: auto;
+margin-bottom: 20px;
+border-radius: 8px;
 }
 
 .footer-links {
@@ -381,6 +390,32 @@ justify-content: space-between;
 margin: 0.3rem 0;
 }
 
+.kodee-button {
+  position: fixed; 
+  bottom: 1rem; 
+  right: 1rem; 
+  background: #673de6; 
+  color: white; 
+  padding: 16px;
+  border: none; 
+  border-radius: 24px; 
+  font-size: 14px; 
+  font-weight: bold; 
+  cursor: pointer; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.kodee-button img {
+  width: 15px; 
+  height: 15px; 
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.kodee-button:hover {
+  background: #9a4eff; 
+}
+
 @media (max-width: 768px) {
 .footer-top {
   flex-direction: column;
@@ -388,9 +423,10 @@ margin: 0.3rem 0;
 }
 
 .footer-links {
-  flex-direction: column;
+  flex-direction: row;
   gap: 0.5rem;
 }
 
 
 }
+
